@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a  href="#home"  class="nav-effect">Home</a></li>
+                <li><a   href="#about" class="nav-effect">About</a></li>
+                <li><a href="#service" class="nav-effect">Services</a></li>
+                <li><a href="#project" class="nav-effect">Projects</a></li>
+                <li><a href="#contact" class="nav-effect">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+    <section id="home">
+      <div class="intro-container">
+        <h2><span class="wave">👋</span> Welcome to <span class="highlight">My Portfolio</span></h2>
+        <p>This is my responsive Portfolio project.</p>
+        <button class="cta-button">Explore Projects 🚀</button>
+      </div>
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+      
+        <div class="swap-buttons">
+          <button onclick="showSection('intro')">Introduction</button>
+          <button onclick="showSection('skills')">Skills</button>
+          <button onclick="showSection('journey')">Journey</button>
+        </div>
+      
+        <div id="intro" class="about-content">
+          <p>I am a passionate frontend developer with a strong grip on crafting responsive, clean, and professional web layouts using pure HTML, CSS, and JavaScript. My specialty lies in transforming real-world designs into interactive user interfaces.</p>
+          <p>I love solving technical challenges — both in UI design and device troubleshooting.</p>
+        </div>
+      
+        <div id="skills" class="about-content hidden">
+                <ul>
+                    <li>Responsive Design</li>
+                    <li>JavaScript UI Effects</li>
+                    <li>Tailwind & Pure CSS</li>
+                    <li>Device Troubleshooting</li>
+                    <li>Creative Animations</li>
+                  </ul>
+         
+        </div>
+      
+        <div id="journey" class="about-content hidden">
+          <p>This portfolio represents the beginning of my professional journey. I’ve built it from scratch using pure HTML, CSS, and JavaScript — focusing on clean code, thoughtful layout, and mobile-first design. It reflects not just my skills, but my commitment to delivering quality work in competitive environments.</p>
+        </div>
+      </section>
+    <section id="Service">
+        <div id="item4">
+            <h2>Services</h2>
+        </div>
+    <div class="services-list">
+     <div class="service-item">
+        <h3>Web Design</h3>
+        <p>professional layouts using pure HTML,CSS, and JavaScript.</p>
+     </div>
+     <div class="service-item">
+        <h3>UI/UX  Improvment</h3>
+        <p>Clean, responsive interfaces for modern user experience.</p>
+     </div>
+     <div class="service-item">
+        <h3>Device Troubleshooting</h3>
+        <p>Firmware flashing, unlocking, and hands-on tech fixes.</p>
+     </div>
+    </div>
+    </section> 
+  
+      <section id="projects">
+        <h2>🚀 My Projects</h2>
+        <button id="shuffleProjects">🔀 Shuffle Projects</button>
+      
+        <div class="projects-list">
+          <div class="project-card">💳 Banking Dashboard UI</div>
+          <div class="project-card">🧠 Interactive Quiz App</div>
+          <div class="project-card">💡 Animated Portfolio</div>
+          <div class="project-card">📱 Mobile Landing Page</div>
+          <div class="project-card">📊 Portfolio Analytics Widget</div>
+          <div class="project-card">🎨 CSS Icon Pack</div>
+        </div>
+      </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form id="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email"  required />
+        <textarea placeholder="Your Message"  required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    
+      
+        <div class="social">
+          <a href="mailto:youremail@example.com">📧 Email</a>
+          <a href="https://github.com/yourprofile" target="_blank">💻 GitHub</a>
+          <a href="https://linkedin.com/in/yourprofile" target="_blank">🌐 LinkedIn</a>
+        </div>
+      </section>
+      <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Abdul Azeem | All rights reserved</p>
+            <p>Made with ❤️ using HTML, CSS & JavaScript</p>
+        </div>
+      </footer>
+ 
+</body>
+<script src="index.js"></script>
+</html>
